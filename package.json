@@ -1,5 +1,5 @@
 {
-  "name": "gitall",
+  "name": "gogit",
   "version": "1.0.0",
   "description": "Create/add/commit/push in a single command",
   "scripts": {
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/akashnimare/gitall",
   "preferGlobal": true,
   "bin": {
-    "gitall": "index.js"
+    "gogit": "index.js"
   }
 }
 

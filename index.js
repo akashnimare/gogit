@@ -4,8 +4,7 @@ var github = require('octonode');
 var simpleGit = require('simple-git');
 
 var user_login = {
-    username: process.argv[2],
-    password: process.argv[3]
+    username: process.argv[2]
 };
 
 var client = github.client(user_login);
