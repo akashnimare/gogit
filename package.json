@@ -1,0 +1,31 @@
+{
+  "name": "gitcli",
+  "version": "1.0.0",
+  "description": "git ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"repository": {
+    "type": "git",
+    "url": "git://github.com/akashnimare/searchfile.git"
+  },
+  "keywords": [
+    "file",
+    "search",
+    "findfiles"
+  ],
+  "author": {
+    "name": "JavaScript Playground"
+  },
+  "bugs": {
+    "url": "https://github.com/akashnimare/searchfile/issues"
+  },
+  "homepage": "https://github.com/akashnimare/searchfile",
+  "preferGlobal": true,
+  "bin": {
+    "cligit": "index.js"
+  }
+}
+
+
+  
