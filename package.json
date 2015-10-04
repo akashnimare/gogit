@@ -1,26 +1,29 @@
 {
-  "name": "gitcli",
+  "name": "gitall",
   "version": "1.0.0",
-  "description": "git ",
+  "description": "Create/add/commit/push in a single command",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 "repository": {
     "type": "git",
-    "url": "git://github.com/akashnimare/searchfile.git"
+    "url": "git://github.com/akashnimare/gitall.git"
   },
   "keywords": [
-    "file",
-    "search",
-    "findfiles"
+    "github",
+    "commit",
+    "push",
+    "create",
+    "repository"
+    "cli"
   ],
   "author": {
-    "name": "JavaScript Playground"
+    "name": "akashnimare"
   },
   "bugs": {
-    "url": "https://github.com/akashnimare/searchfile/issues"
+    "url": "https://github.com/akashnimare/gitall/issues"
   },
-  "homepage": "https://github.com/akashnimare/searchfile",
+  "homepage": "https://github.com/akashnimare/gitall",
   "preferGlobal": true,
   "bin": {
     "cligit": "index.js"

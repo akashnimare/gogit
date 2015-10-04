@@ -21,6 +21,7 @@ client.post('/user/repos', {}, function (err, status, body, headers) {
      .push('origin', 'master');
 
   });
+  console.log(process.argv[4] + "created successfully");
 });
 
 
