@@ -19,9 +19,10 @@ client.post('/user/repos', {}, function (err, status, body, headers) {
      .commit(process.argv[5])
      .addRemote('origin', 'git@github.com:' + process.argv[2] + '/' + process.argv[4] + '.git')
      .push('origin', 'master');
+     console.log(process.argv[4] + "created successfully");
 
   });
-  console.log(process.argv[4] + "created successfully");
+
 });
 
 
