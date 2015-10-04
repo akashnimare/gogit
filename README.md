@@ -1,5 +1,5 @@
 ## gogit
-Create/commit/push in a single command
+Create/commit/push to github in a single command
 
 ## Installation
 npm install --global gogit
