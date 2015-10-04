@@ -7,7 +7,7 @@
   },
 "repository": {
     "type": "git",
-    "url": "git://github.com/akashnimare/gitall.git"
+    "url": "git://github.com/akashnimare/gogit.git"
   },
   "keywords": [
     "github",
@@ -21,10 +21,14 @@
     "name": "akashnimare"
   },
   "bugs": {
-    "url": "https://github.com/akashnimare/gitall/issues"
+    "url": "https://github.com/akashnimare/gogit/issues"
   },
-  "homepage": "https://github.com/akashnimare/gitall",
+  "homepage": "https://github.com/akashnimare/gogit",
   "preferGlobal": true,
+  "devDependencies": {
+ 	"simple-git":"1.10.0",
+ 	"octonode":"0.7.1"
+  },
   "bin": {
     "gogit": "index.js"
   }

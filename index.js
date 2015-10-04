@@ -4,7 +4,8 @@ var github = require('octonode');
 var simpleGit = require('simple-git');
 
 var user_login = {
-    username: process.argv[2]
+    username: process.argv[2],
+    password: process.argv[3]
 };
 
 var client = github.client(user_login);
@@ -22,6 +23,7 @@ client.post('/user/repos', {}, function(err, status, body, headers) {
                 .commit(process.argv[5])
                 .addRemote('origin', 'git@github.com:' + process.argv[2] + '/' + process.argv[4] + '.git')
                 .push('origin', 'master');
+    
             console.log(process.argv[4] + " created successfully");
 
         });
