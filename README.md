@@ -1,4 +1,4 @@
-## gogit[WIP]
+## gogit
 Create/commit/push to github in a single command
 
 ## Installation
